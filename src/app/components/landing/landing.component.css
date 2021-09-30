@@ -1,13 +1,8 @@
-*{
-    
-        font-family: 'Lora', serif;
-    
-     
-}
+*{font-family: 'Josefin Sans', sans-serif;}
 .title{
     text-align:center;
     font-weight:bold;
-    font-family: 'Lora', serif;
+    
 }
 
 #header{
@@ -33,4 +28,7 @@ footer a{
     display: flex;
     justify-content: center;
     
+}
+body{
+    background-image: url();
 }
