@@ -1,4 +1,12 @@
 .navbar{
     background-color:#07073f;
     color:#fff;
+    
+}
+a{
+    text-decoration: none;
+    color:#fff
+}
+.navbar{
+    font-family: 'Lora', serif;
 }

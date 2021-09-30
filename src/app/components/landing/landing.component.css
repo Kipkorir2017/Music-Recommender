@@ -1,3 +1,15 @@
+*{
+    
+        font-family: 'Lora', serif;
+    
+     
+}
+.title{
+    text-align:center;
+    font-weight:bold;
+    font-family: 'Lora', serif;
+}
+
 #header{
     text-align: center;
     font-weight: bold;
@@ -8,7 +20,17 @@
 ul{
     padding-bottom: 20%;
 }
-footer{
+.footer-p{
     background-color:#09092b;
     color:#fff;
+    
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+.display{
+    display: flex;
+    justify-content: center;
+    
 }
