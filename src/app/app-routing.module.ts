@@ -8,7 +8,7 @@ import { GospelComponent } from './categories/gospel/gospel.component';
 import { HiphopComponent } from './categories/hiphop/hiphop.component';
 import { RnBComponent } from './categories/rn-b/rn-b.component';
 import { ReggaeComponent } from './categories/reggae/reggae.component';
-
+import { PostsongComponent } from './components/postsong/postsong.component';
 const routes: Routes = [
   {path: '', component:LandingComponent},
   {path: 'login',component:LoginComponent},
@@ -17,6 +17,7 @@ const routes: Routes = [
   {path:'hiphop',component:HiphopComponent},
   {path:'reggae',component:ReggaeComponent},
   {path:'rnb',component:RnBComponent},
+  {path:'postsong',component:PostsongComponent},
   {path:'**', component:NotFoundComponent},
 
 ];

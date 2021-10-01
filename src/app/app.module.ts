@@ -14,6 +14,7 @@ import { RnBComponent } from './categories/rn-b/rn-b.component';
 import { ReggaeComponent } from './categories/reggae/reggae.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { PostsongComponent } from './components/postsong/postsong.component';
 
 @NgModule({
   declarations: [
@@ -23,10 +24,12 @@ import { FormsModule } from '@angular/forms';
     LandingComponent,
     LoginComponent,
     NotFoundComponent,
+    PostsongComponent,
     GospelComponent,
     HiphopComponent,
     RnBComponent,
-    ReggaeComponent
+    ReggaeComponent,
+    
   ],
   imports: [
     BrowserModule,
